@@ -8,7 +8,7 @@ plugins:
 # in order as they should show up.
 header_pages:
   - AboutUs.md
-  -ProjectDescription.md
+  - ProjectDescription.md
 
 minima:
   skin: solarized
