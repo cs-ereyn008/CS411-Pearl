@@ -1,5 +1,16 @@
 name: Traffic Tamer
 theme: minima
+
+minima:
+  skin: solarized
+
 header_pages:
   - ProjectDescription.md
   - AboutUs.md
+
+include:
+  - CS410-411-Pearl 
+
+plugins:
+  - jekyll-highlight-param
+  - jekyll-remote-include
