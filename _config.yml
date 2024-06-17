@@ -1,2 +1,5 @@
 name: Traffic Tamer
 theme: minima
+header_pages:
+  - ProjectDescription.md
+  - AboutUs.md
