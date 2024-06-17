@@ -11,6 +11,12 @@ header_pages:
 include:
   - CS410-411-Pearl 
 
+exclude: 
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+
 plugins:
   - jekyll-highlight-param
   - jekyll-remote-include
