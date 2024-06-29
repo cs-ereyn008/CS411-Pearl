@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Problem</title>
+    <link rel="stylesheet" href="menuBackground.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional CSS for iframe styling */
+        .iframe-container {
+            width: 80%; /* Adjust the width as needed */
+            height: 800px; /* Adjust the height as needed */
+            border: 5px solid #1e3a8a; /* Dark blue border */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <section class="relative">
+        <nav class="topnav flex justify-between text-white">
+            <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+                <a class="text-3xl font-bold font-heading" href="#">
+                    Traffic Tamer
+                </a>
+                <!-- Nav Links -->
+                <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                    <li><a class="hover:text-gray-200" href="index.html">Home</a></li>
+                    <li><a class="hover:text-gray-200" href="AboutUs.html">About Us</a></li>
+                    <li><a class="hover:text-gray-200" href="Problem.html">Problem</a></li>
+                    <li><a class="hover:text-gray-200" href="Problem.html">Solution</a></li>
+                    <li><a class="hover:text-gray-200" href="Presentation.html">Presentation</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Embedded Google Presentation -->
+    <div class="flex justify-center items-center min-h-screen bg-gray-100 py-12">
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS2y9kpDGYBczjcfrzLmOShyKutiqKz0JE-xNFRumWnP5RLGX3zKsdewOWlEfPrv3jD_PpprL_gRpGu/embed?start=false&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+</body>
+
+</html>
