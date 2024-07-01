@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="menuBackground.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Additional CSS for iframe styling */
-        .iframe-container {
+        /* Additional CSS for image styling */
+        .image-container img {
             width: 80%; /* Adjust the width as needed */
-            height: 800px; /* Adjust the height as needed */
+            height: auto; /* Adjust the height as needed */
             border: 5px solid #1e3a8a; /* Dark blue border */
         }
     </style>
@@ -48,9 +48,11 @@
         </p>
         <h2 class="text-2xl font-bold mb-4">Current Process Flow</h2>  
     </div>
-    <!-- Embedded Google Presentation -->
+    <!-- Image of Current Process Flow -->
     <div class="flex justify-center items-center min-h-screen bg-gray-100 py-12">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSZDCKp-vmfgW155ApxwuTlJrY5pW9u-NlCBTp_RuOytZslQvJ5wcA-DP0bCknrUv9eGXCWeS4C0Pn8/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <div class="image-container">
+            <img src="images/currentprocess.png" alt="Current Process Flow">
+        </div>
     </div>
 
 </body>
