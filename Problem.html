@@ -9,13 +9,22 @@
         .image-container {
             display: flex;
             justify-content: center;
-            background-color: #909090; /* Dark grey background */
+            background-color: #172b4d; /* Dark blue background */
             padding: 0; /* Remove padding around the image */
         }
         .image-container img {
             width: 100%; /* Adjust the width to match the page */
             height: auto; /* Maintain aspect ratio */
             border: 8px solid #1e3a8a; /* Dark blue border */
+        }
+        /* Additional CSS for bolded, centered paragraph */
+        .highlighted-text {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 24px;
+            padding: 16px;
+            background-color: #f8f8f8; /* Light background for emphasis */
+            border: 2px solid #1e3a8a; /* Dark blue border */
         }
     </style>
 </head>
@@ -48,11 +57,42 @@
         <p>
             Understanding the complexity of traffic law poses a significant challenge for the average individual due to the intricate and varied nature of these regulations across different states and regions. With nearly half of all cases heard in state courts pertaining to traffic violations, it is evident that simplified access to traffic laws tailored to individual jurisdictions is necessary.
         </p>
+        <h2 class="text-2xl font-bold mb-4">Problem Characteristics</h2>    
+        <!---Problem characteristics list---> 
+        <ul class="list-disc ml-6 mb-6">
+            <li><strong>Statistical Insight:</strong>
+                <ul class="list-disc ml-6">
+                    <li>Nearly half of all state-court cases relate to traffic violations (National Center for State Courts, 2024).</li>
+                </ul>
+            </li>
+            <li><strong>Complexity of Traffic Laws:</strong>
+                <ul class="list-disc ml-6">
+                    <li>Understanding the variance in traffic law across state lines is daunting for the average individual.</li>
+                </ul>
+            </li>
+            <li><strong>Need for Accessibility:</strong>
+                <ul class="list-disc ml-6">
+                    <li>Legal jargon is difficult to follow for the layman.</li>
+                    <li>Access to simplified explanations is essential for compliance and safety.</li>
+                </ul>
+            </li>
+            <li><strong>Professional and Educational Relevance:</strong>
+                <ul class="list-disc ml-6">
+                    <li>Driver improvement classes would benefit from educational tools students can use at any time.</li>
+                    <li>Law schools focusing on traffic law education seek comprehensive resources for students.</li>
+                </ul>
+            </li>
+        </ul>
         <h2 class="text-2xl font-bold mb-4">Current Process Flow</h2>
         <!-- Image of Current Process Flow -->
         <div class="image-container">
             <img src="images/currentprocess.png" alt="Current Process Flow">
         </div>
+
+        <!-- Highlighted, centered paragraph -->
+        <p class="highlighted-text">
+            Traffic law’s complex nature and impact on the lives of many necessitates a software solution that provides comprehensive yet simplified explanations to empower individuals, corporations, and educational institutions in navigating and understanding traffic regulations.
+        </p>
     </div>
 </body>
 </html>
