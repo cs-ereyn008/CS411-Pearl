@@ -13,6 +13,21 @@
             border: 5px solid #1e3a8a; /* Dark blue border */
         }
 
+        .list-disc {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+
+        .list-disc li {
+            margin-bottom: 10px;
+            margin-left: -1.5rem;
+        }
+
+        .list-disc li::marker {
+            font-size: 1.2rem;
+            color: #1e3a8a; /* Dark blue color */
+        }
+
         .reference-item {
             display: block;
             margin-bottom: 10px;
@@ -21,6 +36,24 @@
         .reference-item p {
             display: inline;
             margin-left: 20px; /* Hanging indent */
+        }
+
+        .bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e3a8a; /* Dark blue background */
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .bottom-bar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -84,6 +117,21 @@
             </ul>
         </div>
     </section>
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+        <div>
+            Team Pearl
+            <br>Traffic Tamer
+        </div>
+        <div>
+            <a href="https://www.odu.edu/">ODU Website</a>
+            <br><a href="https://www.odu.edu/computer-science">ODU CS Department</a>
+            <br>Old Dominion University
+            <br>5115 Hampton Blvd
+            <br>Norfolk, VA 23529
+        </div>
+    </div>
 
 </body>
 
