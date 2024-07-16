@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Traffic Tamer - Glossary</title>
+    <link rel="stylesheet" href="menuBackground.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        .bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e3a8a; /* Dark blue background */
+            color: white;
+            width: 100%;
+            position: fixed; /* Change position to fixed */
+            bottom: 0; /* Fix to the bottom */
+            left: 0; /* Fix to the left edge */
+            z-index: 1000; /* Ensure it appears above other elements */
+        }
+
+        .bottom-bar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        /* Add padding to the bottom of the main content to avoid overlap */
+        body {
+            padding-bottom: 80px; /* Adjust to match the height of the bottom bar */
+        }
+
+        .glossary {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .glossary-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .glossary-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .glossary-item {
+            margin-bottom: 15px;
+        }
+
+        .glossary-item b {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navigation Menu -->
+    <section class="relative">
+        <nav class="topnav flex justify-between text-white">
+            <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+                <a class="text-3xl font-bold font-heading" href="#">
+                    Traffic Tamer
+                </a>
+                <!-- Nav Links -->
+                <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                    <li><a class="hover:text-gray-200" href="index.html">Home</a></li>
+                    <li><a class="hover:text-gray-200" href="AboutUs.html">The Team</a></li>
+                    <li><a class="hover:text-gray-200" href="Problem.html">Problem</a></li>
+                    <li><a class="hover:text-gray-200" href="Solution.html">Solution</a></li>
+                    <li><a class="hover:text-gray-200" href="Presentation.html">Presentation</a></li>
+                    <li><a class="hover:text-gray-200" href="References.html">References</a></li>
+                    <li><a class="hover:text-gray-200" href="Glossary.html">Glossary</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Glossary Section -->
+    <section class="glossary">
+        <div class="glossary-title">Glossary</div>
+        <ul class="glossary-list">
+            <li class="glossary-item">
+                <b>Apache:</b> An open-source web server software that is widely used to serve web content over the internet.
+            </li>
+            <li class="glossary-item">
+                <b>CSS (Cascading Style Sheets):</b> A style sheet language used for describing the presentation of a document written in HTML or XML, defining the look and layout of a web page.
+            </li>
+            <li class="glossary-item">
+                <b>Docker:</b> A platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that include all the necessary components to run a piece of software.
+            </li>
+            <li class="glossary-item">
+                <b>HTML (HyperText Markup Language):</b> The standard markup language used to create web pages. HTML elements are the building blocks of web pages.
+            </li>
+            <li class="glossary-item">
+                <b>JavaScript:</b> A programming language that enables interactive web pages and is an essential part of web applications. Along with HTML and CSS, it is one of the core technologies of the web.
+            </li>
+            <li class="glossary-item">
+                <b>Linux:</b> An open-source operating system based on UNIX. It is used to run servers, desktops, and mobile devices.
+            </li>
+            <li class="glossary-item">
+                <b>Machine Learning:</b> A branch of artificial intelligence that focuses on building systems that can learn from and make decisions based on data.
+            </li>
+            <li class="glossary-item">
+                <b>MySQL:</b> An open-source relational database management system (RDBMS) that uses SQL (Structured Query Language) to manage and manipulate databases.
+            </li>
+            <li class="glossary-item">
+                <b>Node.js:</b> A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing developers to use JavaScript to write server-side code.
+            </li>
+            <li class="glossary-item">
+                <b>React:</b> A JavaScript library for building user interfaces, particularly single-page applications where data changes over time.
+            </li>
+            <li class="glossary-item">
+                <b>SQLite:</b> A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+            </li>
+            <li class="glossary-item">
+                <b>State Court:</b> A court that has jurisdiction over disputes with some connection to a U.S. state.
+            </li>
+            <li class="glossary-item">
+                <b>Traffic Law:</b> Rules and regulations that govern how vehicles operate on the roads and how road users must behave to ensure safety and order.
+            </li>
+            <li class="glossary-item">
+                <b>Web Application:</b> An application software that runs on a web server and can be accessed through a web browser.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+        <div>
+            <b>Team Pearl</b>
+            <br>Traffic Tamer
+            <br>CS410-411W
+        </div>
+        <div>
+            <b><a href="https://www.odu.edu/">ODU Website</a>
+            <br><a href="https://www.odu.edu/computer-science">ODU CS Department</a></b>
+            <br>Old Dominion University
+            <br>5115 Hampton Blvd
+            <br>Norfolk, VA 23529
+        </div>
+    </div>
+    
+</body>
+
+</html>
