@@ -7,7 +7,6 @@
 
     <title>Traffic Tamer</title>
     <style>
-        /* Additional CSS styles can be added here if necessary */
         .bg-traffic {
             background-image: url('images/LATraffic.jpg');
             background-size: cover;
@@ -33,6 +32,29 @@
             position: relative;
             width: 100%;
             margin-top: 20px;
+        }
+        /* Navigation Menu Styles */
+        .topnav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+        }
+        .topnav li {
+            display: inline-block;
+            padding: 10px;
+            white-space: nowrap; /* Prevent text wrapping */
+        }
+        .topnav a {
+            display: inline-block;
+            padding: 10px 15px; /* Adjust padding to fit hover background */
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .topnav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Hover background color */
+            border-radius: 5px;
         }
     </style>
 </head>
