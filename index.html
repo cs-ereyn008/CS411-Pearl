@@ -33,15 +33,22 @@
             width: 100%;
             margin-top: 20px;
         }
-        /* Navigation Menu Styles */
+       /* Navigation Menu Styles */
+        .topnav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e3a8a;
+        }
         .topnav ul {
             display: flex;
             justify-content: center;
             padding: 0;
             list-style: none;
+            flex-wrap: wrap; /* Allow items to wrap */
         }
         .topnav li {
-            display: inline-block;
             padding: 10px;
             white-space: nowrap; /* Prevent text wrapping */
         }
@@ -63,23 +70,23 @@
     
     <!-- Navigation Menu -->
     <section class="relative">
-        <nav class="topnav flex justify-between text-white">
-            <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+        <nav class="topnav">
+            <div class="flex items-center">
                 <a class="text-3xl font-bold font-heading" href="#">
                     Traffic Tamer
                 </a>
-                <!-- Nav Links -->
-                <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-                    <li><a class="hover:text-gray-200" href="index.html">Home</a></li>
-                    <li><a class="hover:text-gray-200" href="AboutUs.html">The Team</a></li>
-                    <li><a class="hover:text-gray-200" href="Problem.html">Problem</a></li>
-                    <li><a class="hover:text-gray-200" href="Solution.html">Solution</a></li>
-                    <li><a class="hover:text-gray-200" href="Presentation.html">Presentation</a></li>
-                    <li><a class="hover:text-gray-200" href="Labs.html">Labs</a></li>
-                    <li><a class="hover:text-gray-200" href="References.html">References</a></li>
-                    <li><a class="hover:text-gray-200" href="Glossary.html">Glossary</a></li>
-                </ul>
             </div>
+            <!-- Nav Links -->
+            <ul class="font-semibold font-heading">
+                <li><a class="hover:text-gray-200" href="index.html">Home</a></li>
+                <li><a class="hover:text-gray-200" href="AboutUs.html">The Team</a></li>
+                <li><a class="hover:text-gray-200" href="Problem.html">Problem</a></li>
+                <li><a class="hover:text-gray-200" href="Solution.html">Solution</a></li>
+                <li><a class="hover:text-gray-200" href="Presentation.html">Presentation</a></li>
+                <li><a class="hover:text-gray-200" href="Labs.html">Labs</a></li>
+                <li><a class="hover:text-gray-200" href="References.html">References</a></li>
+                <li><a class="hover:text-gray-200" href="Glossary.html">Glossary</a></li>
+            </ul>
         </nav>
     </section>
 
