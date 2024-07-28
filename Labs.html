@@ -50,6 +50,12 @@
             background-color: rgba(255, 255, 255, 0.2); /* Hover background color */
             border-radius: 5px;
         }
+        /* Additional CSS for iframe styling */
+        .iframe-container {
+            width: 80%; /* Adjust the width as needed */
+            height: 800px; /* Adjust the height as needed */
+            border: 5px solid #1e3a8a; /* Dark blue border */
+        }
     </style>
 </head>
 <body>  
@@ -74,6 +80,11 @@
             </div>
         </nav>
     </section>
+
+    <!-- PDF iframe -->
+    <div class="flex justify-center items-center min-h-screen bg-gray-100 py-12">
+        <iframe class="iframe-container" src="images/Lab1_Draft.pdf" frameborder="0"></iframe>
+    </div>
 
     <!-- Bottom Bar -->
     <div class="footer-container">
