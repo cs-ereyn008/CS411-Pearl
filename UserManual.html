@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="menuBackground.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Labs</title>
+    <style>
+        .bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e3a8a;
+            color: white;
+            width: 100%;
+            position: relative;
+        }
+        .bottom-bar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .footer-container {
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .topnav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1e3a8a;
+        }
+        .topnav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .topnav li {
+            padding: 10px;
+            white-space: nowrap;
+        }
+        .topnav a {
+            display: inline-block;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .topnav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        .iframe-container {
+            width: 80%;
+            height: 800px;
+            border: 5px solid #1e3a8a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <section class="relative">
+        <nav class="topnav">
+            <div class="flex items-center">
+                <a class="text-3xl font-bold font-heading" href="#">
+                    Traffic Tamer
+                </a>
+            </div>
+            <!-- Nav Links -->
+            <ul class="font-semibold font-heading">
+                <li><a class="hover:text-gray-200" href="index.html">Home</a></li>
+                <li><a class="hover:text-gray-200" href="AboutUs.html">The Team</a></li>
+                <li><a class="hover:text-gray-200" href="Problem.html">Problem</a></li>
+                <li><a class="hover:text-gray-200" href="Solution.html">Solution</a></li>
+                <li><a class="hover:text-gray-200" href="Presentation.html">Presentation</a></li>
+                <li><a class="hover:text-gray-200" href="Labs.html">Labs</a></li>
+                <li><a class="hover:text-gray-200" href="UserManual.html">User Manual</a></li>
+                <li><a class="hover:text-gray-200" href="References.html">References</a></li>
+                <li><a class="hover:text-gray-200" href="Glossary.html">Glossary</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- User Manual Section -->
+    <div class="bg-gray-100 py-12">
+        <h2 class="text-2xl font-bold mb-4 text-center">Lab 3 - User Manual</h2>
+        <div class="flex justify-center items-center">
+            <iframe class="iframe-container" src="images/Lab3UserManual.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <div class="bg-gray-100 py-12">
+        <h2 class="text-2xl font-bold mb-4 text-center">Lab 4 - User Manual</h2>
+        <div class="flex justify-center items-center">
+            <iframe class="iframe-container" src="images/Lab4UserManual.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-container">
+        <div class="bottom-bar">
+            <div>
+                <b>Team Pearl</b>
+                <br>Traffic Tamer
+                <br>CS410-411W
+            </div>
+            <div>
+                <b><a href="https://www.odu.edu/">ODU Website</a>
+                <br><a href="https://www.odu.edu/computer-science">ODU CS Department</a></b>
+                <br>Old Dominion University
+                <br>5115 Hampton Blvd
+                <br>Norfolk, VA 23529
+            </div>
+        </div>
+    </div>
+</body>
+</html>
